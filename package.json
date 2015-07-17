@@ -1,10 +1,10 @@
 {
-  "name": "ufo",
+  "name": "opium",
   "version": "1.0.0",
-  "description": "unified file operations script",
-  "main": "lib/ufo.js",
+  "description": "unified file operations",
+  "main": "lib/opium.js",
   "bin": {
-    "ufo": "ufo.js"
+    "opium": "opium.js"
   },
   "dependencies": {
     "ashify": "~1.0.1",
@@ -23,18 +23,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coderaiser/node-ufo.git"
+    "url": "git+https://github.com/coderaiser/opium.git"
   },
   "keywords": [
     "file",
     "operations",
-    "script",
     "unified"
   ],
   "author": "coderaiser <mnemonic.enemy@gmail.com> (http://coderaiser.github.io/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/coderaiser/node-ufo/issues"
+    "url": "https://github.com/coderaiser/node-opium/issues"
   },
-  "homepage": "https://github.com/coderaiser/node-ufo#readme"
+  "homepage": "https://github.com/coderaiser/node-opium#readme"
 }
