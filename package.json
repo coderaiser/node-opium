@@ -1,0 +1,39 @@
+{
+  "name": "ufo",
+  "version": "1.0.0",
+  "description": "unified file operations script",
+  "main": "lib/ufo.js",
+  "bin": {
+    "ufo": "ufo.js"
+  },
+  "dependencies": {
+    "ashify": "~1.0.1",
+    "copymitter": "~1.8.4",
+    "jaguar": "~1.1.0",
+    "minimist": "~1.1.1",
+    "mkdirp": "~0.5.1",
+    "patchfile": "~1.0.7",
+    "remy": "~1.0.1",
+    "rendy": "~1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderaiser/node-ufo.git"
+  },
+  "keywords": [
+    "file",
+    "operations",
+    "script",
+    "unified"
+  ],
+  "author": "coderaiser <mnemonic.enemy@gmail.com> (http://coderaiser.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coderaiser/node-ufo/issues"
+  },
+  "homepage": "https://github.com/coderaiser/node-ufo#readme"
+}
