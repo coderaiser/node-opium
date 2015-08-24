@@ -1,0 +1,5 @@
+2015.08.24, v1.0.1
+
+feature:
+- feature(package) rm minimist
+
