@@ -11,9 +11,9 @@ npm i opium --save
 ### How to use?
 
 ```js
-var opium       = require('opium'),
+var opium = require('opium'),
 
-commands    = opium([
+commands = opium([
     'put --type directory --path /tmp/hello/world/why/not',
     'put --type file --path /tmp/hello/tmp.js --format base64 --data aGVsbG8=',
 ].join('\n'));
