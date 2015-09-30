@@ -32,7 +32,7 @@ commands.on('progress', function(count) {
 
 ```
 delete --path /tmp/hello --files 1.txt,2.txt,3.txt
-put --type file --format gzip --path /tmp/hello.txt --data
+put --type file --format gzip --path /tmp/hello.txt --data "some data"
 put --type directory --path /tmp/hello-dir
 extract --from /tmp/hello.tar.gz --to /tmp/hello
 pack --from /tmp/hello --to hello.tar.gz --files 1.txt,2.txt,3.txt
