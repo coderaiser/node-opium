@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coderaiser/opium.git"
+    "url": "git+https://github.com/coderaiser/node-opium.git"
   },
   "keywords": [
     "file",
