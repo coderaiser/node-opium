@@ -1,3 +1,10 @@
+2016.02.20, v1.0.2
+
+feature:
+- (package) ~ -> ^
+- (package) flop v1.4.0
+
+
 2015.08.24, v1.0.1
 
 feature:
