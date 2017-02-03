@@ -36,7 +36,7 @@ put --type file --format gzip --path /tmp/hello.txt --data "some data"
 put --type directory --path /tmp/hello-dir
 extract --from /tmp/hello.tar.gz --to /tmp/hello
 pack --from /tmp/hello --to hello.tar.gz --files 1.txt,2.txt,3.txt
-copy --from /tmp --to --to /tmp/2 --files 1.txt,2.txt,4.txt
+copy --from /tmp --to /tmp/2 --files 1.txt,2.txt,4.txt
 move --from /tmp/1.txt --to /tmp/2.txt
 ```
 
