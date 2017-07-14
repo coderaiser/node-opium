@@ -9,6 +9,9 @@
   "engines": {
     "node": ">=4"
   },
+  "scripts": {
+    "lint": "eslint lib"
+  },
   "dependencies": {
     "ashify": "^1.0.1",
     "copymitter": "^2.0.0",
@@ -19,9 +22,8 @@
     "remy": "^2.0.0",
     "rendy": "^1.1.0"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "eslint": "^4.2.0"
   },
   "repository": {
     "type": "git",
