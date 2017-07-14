@@ -1,3 +1,12 @@
+2017.07.14, v2.0.0
+
+feature:
+- (opium) drop support of node versions < 4
+- (gitignore) add package-lock.json
+- (opium) drop support of node version < 4
+- (package) flop v3.0.1
+
+
 2017.02.03, v1.0.8
 
 fix:
