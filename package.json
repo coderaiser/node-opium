@@ -6,6 +6,9 @@
   "bin": {
     "opium": "opium.js"
   },
+  "engines": {
+    "node": ">=4"
+  },
   "dependencies": {
     "ashify": "^1.0.1",
     "copymitter": "^2.0.0",
