@@ -20,7 +20,7 @@
     "mkdirp": "^0.5.1",
     "patchfile": "^1.0.7",
     "remy": "^2.0.0",
-    "rendy": "^1.1.0"
+    "rendy": "^2.0.0"
   },
   "devDependencies": {
     "eslint": "^4.2.0"
