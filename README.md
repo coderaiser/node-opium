@@ -45,9 +45,9 @@ move --from /tmp/1.txt --to /tmp/2.txt
 MIT
 
 [NPMIMGURL]:                https://img.shields.io/npm/v/opium.svg?style=flat
-[DependencyStatusIMGURL]:   https://img.shields.io/gemnasium/coderaiser/node-opium.svg?style=flat
+[DependencyStatusIMGURL]:   https://img.shields.io/david/coderaiser/node-opium.svg?style=flat
 [LicenseIMGURL]:            https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
 [NPMURL]:                   https://npmjs.org/package/opium "npm"
-[DependencyStatusURL]:      https://gemnasium.com/coderaiser/node-opium "Dependency Status"
+[DependencyStatusURL]:      https://david-dm.org/coderaiser/node-opium "Dependency Status"
 [LicenseURL]:               https://tldrlegal.com/license/mit-license "MIT License"
 
