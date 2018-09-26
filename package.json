@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "ashify": "^1.0.1",
-    "copymitter": "^3.0.0",
+    "copymitter": "^4.0.2",
     "flop": "^4.0.0",
     "jaguar": "^4.0.0",
     "mkdirp": "^0.5.1",
