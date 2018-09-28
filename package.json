@@ -1,6 +1,6 @@
 {
   "name": "opium",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "unified file operations",
   "main": "lib/opium.js",
   "bin": {
