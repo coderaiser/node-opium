@@ -24,7 +24,8 @@
   },
   "devDependencies": {
     "eslint": "^5.6.0",
-    "madrun": "^9.4.0"
+    "madrun": "^9.4.0",
+    "putout": "^32.2.1"
   },
   "repository": {
     "type": "git",
