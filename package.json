@@ -19,7 +19,7 @@
     "jaguar": "^5.0.0",
     "mkdirp": "^0.5.1",
     "patchfile": "^2.0.0",
-    "remy": "^4.0.0",
+    "remy": "^7.0.0",
     "rendy": "^4.1.3"
   },
   "devDependencies": {
