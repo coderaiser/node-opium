@@ -17,7 +17,7 @@
     "copymitter": "^4.0.2",
     "flop": "^6.0.0",
     "jaguar": "^5.0.0",
-    "mkdirp": "^0.5.1",
+    "mkdirp": "^3.0.1",
     "patchfile": "^2.0.0",
     "remy": "^7.0.0",
     "rendy": "^4.1.3"
