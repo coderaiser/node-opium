@@ -1,13 +1,37 @@
 'use strict';
 
-const montag = require('montag');
+const rendy = require('rendy');
 const opium = require('..');
-const commands = opium(montag`
-        put --type directory --path /tmp/hello/world/why/not
-        put --type file --path /tmp/hello/tmp.js --format base64 --data aGVsbG8=
-        patch --hash bb27f5fa7f50d9747525754f9d14c63187cc2959 --path /tmp/hello/tmp.js --data QEAgLTMwMywxNiArMzAzLDE3IEBACiAtZGF0YSAnIAorIAogJTBBICAgICAgIAo=
-    `);
+const noop = () => {};
 
-commands.on('error', () => {
+const commands = [
+    mkdir('/tmp/hello/world/why/not'),
+    writeFile('/tmp/hello/tmp.js', 'hello'),
+];
+
+const processing = opium(commands);
+
+processing.on('progress', console.log);
+processing.on('end', () => {
+    console.log('done');
+});
+processing.on('error', () => {
     commands.abort();
 });
+
+function mkdir(path) {
+    return rendy(`put --type directory --path {{ path }}`, {
+        path,
+    });
+}
+
+function writeFile(path, data) {
+    const values = {
+        path,
+        data,
+    };
+    
+    return rendy(`put --type file --path {{ path }} --format base64 --data {{ data | btoa }}`, values, {
+        btoa,
+    });
+}
