@@ -1,45 +1,55 @@
 {
-  "name": "opium",
-  "version": "3.0.5",
-  "description": "unified file operations",
-  "main": "lib/opium.js",
-  "bin": {
-    "opium": "opium.js"
-  },
-  "engines": {
-    "node": ">=16"
-  },
-  "scripts": {
-    "lint": "eslint lib"
-  },
-  "dependencies": {
-    "ashify": "^2.0.1",
-    "copymitter": "^8.1.0",
-    "flop": "^11.2.0",
-    "jaguar": "^6.0.1",
-    "mkdirp": "^3.0.1",
-    "patchfile": "^4.0.1",
-    "remy": "^7.0.0",
-    "rendy": "^4.1.3"
-  },
-  "devDependencies": {
-    "eslint": "^8.51.0",
-    "madrun": "^9.4.0",
-    "putout": "^32.2.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/coderaiser/node-opium.git"
-  },
-  "keywords": [
-    "file",
-    "operations",
-    "unified"
-  ],
-  "author": "coderaiser <mnemonic.enemy@gmail.com> (http://coderaiser.github.io/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/coderaiser/node-opium/issues"
-  },
-  "homepage": "https://github.com/coderaiser/node-opium#readme"
+    "name": "opium",
+    "version": "3.0.5",
+    "type": "commonjs",
+    "description": "unified file operations",
+    "main": "lib/opium.js",
+    "bin": {
+        "opium": "opium.js"
+    },
+    "engines": {
+        "node": ">=16"
+    },
+    "scripts": {
+        "test": "madrun test",
+        "watch:test": "madrun watch:test",
+        "lint": "madrun lint",
+        "fresh:lint": "madrun fresh:lint",
+        "lint:fresh": "madrun lint:fresh",
+        "fix:lint": "madrun fix:lint",
+        "coverage": "madrun coverage",
+        "report": "madrun report",
+        "wisdom": "madrun wisdom"
+    },
+    "dependencies": {
+        "ashify": "^2.0.1",
+        "copymitter": "^8.1.0",
+        "flop": "^11.2.0",
+        "jaguar": "^6.0.1",
+        "mkdirp": "^3.0.1",
+        "patchfile": "^4.0.1",
+        "remy": "^7.0.0",
+        "rendy": "^4.1.3"
+    },
+    "devDependencies": {
+        "eslint": "^8.51.0",
+        "eslint-plugin-putout": "^20.0.0",
+        "madrun": "^9.4.0",
+        "putout": "^32.2.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/coderaiser/node-opium.git"
+    },
+    "keywords": [
+        "file",
+        "operations",
+        "unified"
+    ],
+    "author": "coderaiser <mnemonic.enemy@gmail.com> (http://coderaiser.github.io/)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/coderaiser/node-opium/issues"
+    },
+    "homepage": "https://github.com/coderaiser/node-opium#readme"
 }
