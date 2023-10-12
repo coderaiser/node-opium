@@ -13,7 +13,7 @@
     "lint": "eslint lib"
   },
   "dependencies": {
-    "ashify": "^1.0.1",
+    "ashify": "^2.0.1",
     "copymitter": "^4.0.2",
     "flop": "^6.0.0",
     "jaguar": "^6.0.1",
