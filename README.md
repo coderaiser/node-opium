@@ -1,29 +1,30 @@
-# Opium [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL] [![Dependency Status][DependencyStatusIMGURL]][DependencyStatusURL]
+# Opium [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL]
 
 Unified file operations. Could be used to automate file operations on platforms powered by `node.js`.
 
 ### Install
 
 ```
-npm i opium --save
+npm i opium
 ```
 
 ### How to use?
 
 ```js
-var opium = require('opium'),
+import montag from 'montag';
 
-commands = opium([
-    'put --type directory --path /tmp/hello/world/why/not',
-    'put --type file --path /tmp/hello/tmp.js --format base64 --data aGVsbG8=',
-].join('\n'));
-    
-commands.on('error', function(error) {
+const opium = require('opium');
+const commands = opium(montag`
+    put --type directory --path /tmp/hello/world/why/not
+    put --type file --path /tmp/hello/tmp.js --format base64 --data aGVsbG8=
+`);
+
+commands.on('error', (error) => {
     console.error(error.message);
     commands.abort();
 });
 
-commands.on('progress', function(count) {
+commands.on('progress', (count) => {
     console.log(count);
 });
 ```
@@ -44,10 +45,7 @@ move --from /tmp/1.txt --to /tmp/2.txt
 
 MIT
 
-[NPMIMGURL]:                https://img.shields.io/npm/v/opium.svg?style=flat
-[DependencyStatusIMGURL]:   https://img.shields.io/david/coderaiser/node-opium.svg?style=flat
-[LicenseIMGURL]:            https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
-[NPMURL]:                   https://npmjs.org/package/opium "npm"
-[DependencyStatusURL]:      https://david-dm.org/coderaiser/node-opium "Dependency Status"
-[LicenseURL]:               https://tldrlegal.com/license/mit-license "MIT License"
-
+[NPMIMGURL]: https://img.shields.io/npm/v/opium.svg?style=flat
+[LicenseIMGURL]: https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
+[NPMURL]: https://npmjs.org/package/opium "npm"
+[LicenseURL]: https://tldrlegal.com/license/mit-license "MIT License"
