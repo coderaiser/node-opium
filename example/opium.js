@@ -1,12 +1,14 @@
 'use strict';
 
-const rendy = require('rendy');
 const opium = require('..');
+const {mkdir, writeFile, move} = require('../commands');;
+
 const noop = () => {};
 
 const commands = [
     mkdir('/tmp/hello/world/why/not'),
     writeFile('/tmp/hello/tmp.js', 'hello'),
+    move('/tmp/hello', '/tmp/hello/world', 'tmp.js'),
 ];
 
 const processing = opium(commands);
@@ -19,19 +21,7 @@ processing.on('error', () => {
     commands.abort();
 });
 
-function mkdir(path) {
-    return rendy(`put --type directory --path {{ path }}`, {
-        path,
-    });
-}
+processing.done().then(() => {
+    console.log('promise done');
+});
 
-function writeFile(path, data) {
-    const values = {
-        path,
-        data,
-    };
-    
-    return rendy(`put --type file --path {{ path }} --format base64 --data {{ data | btoa }}`, values, {
-        btoa,
-    });
-}
