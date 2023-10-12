@@ -1,4 +1,5 @@
 .*
+*.spec.*
 
 yarn-error.log
 coverage
