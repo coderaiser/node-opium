@@ -1,6 +1,6 @@
 {
   "name": "opium",
-  "version": "3.0.5",
+  "version": "4.0.0",
   "type": "commonjs",
   "description": "unified file operations",
   "main": "lib/opium.js",
@@ -18,8 +18,7 @@
     "lint:fresh": "madrun lint:fresh",
     "fix:lint": "madrun fix:lint",
     "coverage": "madrun coverage",
-    "report": "madrun report",
-    "wisdom": "madrun wisdom"
+    "report": "madrun report"
   },
   "dependencies": {
     "ashify": "^2.0.1",
