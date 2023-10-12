@@ -32,7 +32,7 @@ commands.on('progress', (count) => {
 ### Example
 
 ```
-delete --path /tmp/hello --files 1.txt,2.txt,3.txt
+drop --path /tmp/hello --files 1.txt,2.txt,3.txt
 put --type file --format gzip --path /tmp/hello.txt --data "some data"
 put --type directory --path /tmp/hello-dir
 extract --from /tmp/hello.tar.gz --to /tmp/hello

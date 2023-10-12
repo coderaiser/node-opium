@@ -1,9 +1,11 @@
 'use strict';
 
 const opium = require('..');
-const {mkdir, writeFile, move} = require('../commands');;
-
-const noop = () => {};
+const {
+    mkdir,
+    writeFile,
+    move,
+} = require('../commands');const noop = () => {};
 
 const commands = [
     mkdir('/tmp/hello/world/why/not'),
@@ -21,7 +23,8 @@ processing.on('error', () => {
     commands.abort();
 });
 
-processing.done().then(() => {
-    console.log('promise done');
-});
-
+processing
+    .done()
+    .then(() => {
+        console.log('promise done');
+    });
