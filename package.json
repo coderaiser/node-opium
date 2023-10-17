@@ -5,7 +5,7 @@
   "description": "unified file operations",
   "main": "lib/opium.js",
   "bin": {
-    "opium": "bin/opium.js"
+    "opium": "bin/opium.mjs"
   },
   "engines": {
     "node": ">=16"
