@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import opium from '../lib/opium.js';
 import commands from '../lib/commands.js';
 import process from 'node:process';
