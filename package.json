@@ -1,6 +1,6 @@
 {
   "name": "opium",
-  "version": "4.2.1",
+  "version": "4.2.2",
   "type": "commonjs",
   "description": "unified file operations",
   "main": "lib/opium.js",
