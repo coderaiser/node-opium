@@ -5,8 +5,9 @@ const {
     mkdir,
     writeFile,
     move,
-} = require('../commands');const noop = () => {};
+} = require('../commands');
 
+const noop = () => {};
 const commands = [
     mkdir('/tmp/hello/world/why/not'),
     writeFile('/tmp/hello/tmp.js', 'hello'),
