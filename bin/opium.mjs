@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import opium from '../lib/opium.js';
-import commands from '../lib/commands.js';
+import * as commands from '../lib/commands.js';
 import process from 'node:process';
 import {promisify} from 'node:util';
 import report from '../lib/report.js';
