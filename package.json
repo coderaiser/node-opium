@@ -38,7 +38,8 @@
     "eslint-plugin-putout": "^22.5.0",
     "madrun": "^10.0.1",
     "montag": "^1.2.1",
-    "putout": "^35.7.6"
+    "putout": "^35.7.6",
+    "supertape": "^10.5.0"
   },
   "repository": {
     "type": "git",
