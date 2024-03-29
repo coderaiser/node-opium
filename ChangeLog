@@ -1,3 +1,13 @@
+2024.03.29, v5.0.0
+
+feature:
+- ca26cd3 opium: chalk v5.3.0
+- bd3070a opium: supertape v10.5.0
+- b2ad64a opium: madrun v10.0.1
+- 02b5a37 opium: putout v35.7.6
+- fd466f9 opium: eslint-plugin-putout v22.5.0
+- 38798c0 opium: flop v12.0.0
+
 2023.10.17, v4.2.3
 
 fix:
