@@ -12,8 +12,8 @@ npm i opium
 
 ```js
 import montag from 'montag';
+import opium from 'opium';
 
-const opium = require('opium');
 const commands = opium(montag`
     put --type directory --path /tmp/hello/world/why/not
     put --type file --path /tmp/hello/tmp.js --format base64 --data aGVsbG8=

@@ -5,4 +5,3 @@ export default ({put, move, drop}) => [
     drop('/tmp/hello/world/why/not/', '2.js'),
     drop('/tmp/hello/world/why/xxx/', '1.js'),
 ];
-

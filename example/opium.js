@@ -1,11 +1,11 @@
-'use strict';
-
-const opium = require('..');
-const {
+import opium from '../lib/opium.js';
+import {
     mkdir,
     writeFile,
     move,
-} = require('../commands');
+} from '../commands.js';
+
+const noop = () => {};
 
 const noop = () => {};
 const commands = [
